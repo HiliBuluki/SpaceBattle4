@@ -23,6 +23,7 @@ public abstract class Sprite {
 
     protected boolean isCollision(float x, float y)
     {
+
         if ((this.x > x && this.x < x + 40 || this.x < x && this.x > x - 40) && ((this.y >
                 y && this.y < y + 40) || this.y < y && this.y > y + 40))
             return true;
