@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/creen"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#73778A"
+        android:textSize="60dp" />
+    <Button
+        android:id="@+id/btnInstruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#AF9F9A"
+        android:text="Instructions"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#A1958D"
+        android:text="Start Game"
+        android:textSize="20dp"></Button>
+
+
+
+    <EditText
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/etName"
+        android:background="@color/white"
+
+        android:hint="Enter Your Name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"></EditText>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ActivityInstruction">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/black"
+      android:text="There are aliens which are moving both horizontally and vertically (approaching the cannon). Shoot with the laser inside your cannon in order to destroy the aliens, while the aliens will randomly shoot towards the cannon. If an alien is shot by the cannon, it is destroyed. if the cannon is shot, one life is lost.Becareful you have only 1 live"
+    android:textSize="30dp"
+    ></TextView>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go back" />
+</LinearLayout>

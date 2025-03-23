@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21054275432",
+    "project_id": "spacebattle-56f61",
+    "storage_bucket": "spacebattle-56f61.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21054275432:android:5270e6795e69a46e8e60dd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication_spacebattlenewhil4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFkyXhhBSek0eLRMepVnVWlD1tTcRs_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
